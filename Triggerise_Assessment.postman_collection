@@ -1,0 +1,134 @@
+{
+	"id": "c3faebfb-dcee-e05e-d7c9-c92309f6139f",
+	"name": "Triggerise Assessment",
+	"description": "",
+	"order": [
+		"5bd83805-7071-85b5-28b4-6e0a31287feb",
+		"db71bd18-a48c-59ba-2394-c39e61083768",
+		"acfde730-4970-d0f1-8d0f-2edfa5ddec3f",
+		"8fb81925-671f-3398-38cd-7301659f654f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1627379016531,
+	"owner": "7068442",
+	"public": false,
+	"requests": [
+		{
+			"id": "5bd83805-7071-85b5-28b4-6e0a31287feb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CalculateCheckoutAmount",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627379043077,
+			"name": "CalculateBillScenario1",
+			"description": "",
+			"collectionId": "c3faebfb-dcee-e05e-d7c9-c92309f6139f",
+			"responses": [],
+			"rawModeData": "{\n  \"productList\": [\"MUG\", \"TSHIRT\", \"USBKEY\"]\n}"
+		},
+		{
+			"id": "8fb81925-671f-3398-38cd-7301659f654f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CalculateCheckoutAmount",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627382672961,
+			"name": "CalculateBillScenario4",
+			"description": "",
+			"collectionId": "c3faebfb-dcee-e05e-d7c9-c92309f6139f",
+			"responses": [],
+			"rawModeData": "{\n  \"productList\": [\"MUG\", \"TSHIRT\", \"MUG\", \"MUG\", \"USBKEY\", \"TSHIRT\", \"TSHIRT\"]\n}"
+		},
+		{
+			"id": "acfde730-4970-d0f1-8d0f-2edfa5ddec3f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CalculateCheckoutAmount",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627379046446,
+			"name": "CalculateBillScenario3",
+			"description": "",
+			"collectionId": "c3faebfb-dcee-e05e-d7c9-c92309f6139f",
+			"responses": [],
+			"rawModeData": "{\n  \"productList\": [\"TSHIRT\", \"TSHIRT\", \"TSHIRT\", \"MUG\", \"TSHIRT\"]\n}"
+		},
+		{
+			"id": "db71bd18-a48c-59ba-2394-c39e61083768",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/CalculateCheckoutAmount",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627379044280,
+			"name": "CalculateBillScenario2",
+			"description": "",
+			"collectionId": "c3faebfb-dcee-e05e-d7c9-c92309f6139f",
+			"responses": [],
+			"rawModeData": "{\n  \"productList\": [\"MUG\", \"TSHIRT\", \"MUG\"]\n}"
+		}
+	]
+}
