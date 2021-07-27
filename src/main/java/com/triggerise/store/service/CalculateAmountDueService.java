@@ -17,6 +17,13 @@ import java.util.stream.Collectors;
  */
 public class CalculateAmountDueService {
 
+    /**
+     * This method calculates the total amount due to the store from the customer.
+     * it uses a list of string items and determines the amount payable.
+     *
+     * @param storeRequest
+     * @return the total amount due for the storeRequest
+     */
     public BigDecimal calculateAmountDue(StoreRequest storeRequest) {
 
         double total = 0.00;
@@ -38,6 +45,12 @@ public class CalculateAmountDueService {
 
     }
 
+    /**
+     * This method is used to calculate the cost of all the usbkeys in the request
+     *
+     * @param noOfUsbKeys
+     * @return the total cost of all the usbkeys
+     */
     private double CalculateCostOfUsbKey(int noOfUsbKeys) {
 
         double total = 0.00;
@@ -45,6 +58,12 @@ public class CalculateAmountDueService {
         return total;
     }
 
+    /**
+     * This method is used to calculate the cost of all the t-shirts in the request
+     *
+     * @param noOfTShirts
+     * @return the total cost of all the t-shirts
+     */
     private double CalculateCostOfTShirts(int noOfTShirts) {
 
         double total = 0.00;
@@ -57,6 +76,12 @@ public class CalculateAmountDueService {
         return total;
     }
 
+    /**
+     * This method is used to calculate the cost of all the mugs in the request
+     *
+     * @param noOfMugs
+     * @return the total cost of all the mugs
+     */
     private double CalculateCostOfMugs(int noOfMugs) {
 
         double total = 0.00;
