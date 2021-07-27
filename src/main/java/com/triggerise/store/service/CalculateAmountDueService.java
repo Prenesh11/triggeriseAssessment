@@ -8,8 +8,14 @@ import java.math.RoundingMode;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-
-public class CalculateAmountDue {
+/**
+ * CalculateAmountDue, this service contains all the business knowledge of the calculator.
+ *
+ * @author  Prenesh Naidoo
+ * @version 1.0
+ * @since  2021
+ */
+public class CalculateAmountDueService {
 
     public BigDecimal calculateAmountDue(StoreRequest storeRequest) {
 
